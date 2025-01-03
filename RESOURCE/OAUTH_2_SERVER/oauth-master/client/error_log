@@ -1,0 +1,169 @@
+[23-Nov-2024 16:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 21
+[23-Nov-2024 16:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 33
+[23-Nov-2024 16:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_secret in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 34
+[23-Nov-2024 16:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_redirect_uri in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 35
+[23-Nov-2024 16:55:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 16:55:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 39
+[23-Nov-2024 16:55:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 40
+[23-Nov-2024 16:55:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 21
+[23-Nov-2024 16:55:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 33
+[23-Nov-2024 16:55:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_secret in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 34
+[23-Nov-2024 16:55:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_redirect_uri in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 35
+[23-Nov-2024 16:56:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 21
+[23-Nov-2024 16:56:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 33
+[23-Nov-2024 16:56:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_secret in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 34
+[23-Nov-2024 16:56:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_redirect_uri in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 35
+[23-Nov-2024 17:22:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 17:22:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[23-Nov-2024 17:22:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[23-Nov-2024 19:09:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[23-Nov-2024 19:16:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[23-Nov-2024 19:19:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 19:19:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[23-Nov-2024 19:19:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[23-Nov-2024 19:19:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 19:19:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[23-Nov-2024 19:19:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[23-Nov-2024 19:40:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 19:40:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[23-Nov-2024 19:40:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[23-Nov-2024 19:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 21
+[23-Nov-2024 19:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 33
+[23-Nov-2024 19:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_secret in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 34
+[23-Nov-2024 19:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_redirect_uri in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 35
+[23-Nov-2024 19:43:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[23-Nov-2024 19:43:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: state in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[23-Nov-2024 19:43:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[23-Nov-2024 19:43:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[23-Nov-2024 19:44:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[23-Nov-2024 20:40:20 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/process_auth_code.php on line 45
+[23-Nov-2024 20:40:36 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/process_auth_code.php on line 45
+[28-Dec-2024 14:42:19 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 15
+[28-Dec-2024 14:42:19 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[28-Dec-2024 14:42:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[28-Dec-2024 14:42:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[28-Dec-2024 14:42:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 33
+[28-Dec-2024 14:42:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_secret in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 34
+[28-Dec-2024 14:42:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: client_redirect_uri in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/init_oauth.php on line 35
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 15
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 15
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 16
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[28-Dec-2024 14:43:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[30-Dec-2024 17:55:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/process_auth_code.php(19): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 17:56:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/process_auth_code.php(19): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 17:56:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/process_auth_code.php(19): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 18:03:59 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 18:04:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(27): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 18:16:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[30-Dec-2024 18:16:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[30-Dec-2024 18:17:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[30-Dec-2024 18:17:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 43
+[30-Dec-2024 18:17:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: resourceOwner in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 29
+[30-Dec-2024 18:17:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 29
+[30-Dec-2024 18:20:11 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:11 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:11 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '../../db_connect.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'DB_CONNECT' not found in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 9
+[30-Dec-2024 18:20:29 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:29 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:29 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '../../db_connect.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:20:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'DB_CONNECT' not found in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 9
+[30-Dec-2024 18:20:40 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 38
+[30-Dec-2024 18:21:00 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:00 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:00 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '../../db_connect.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'DB_CONNECT' not found in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 9
+[30-Dec-2024 18:21:17 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:17 Asia/Ho_Chi_Minh] PHP Warning:  include(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:17 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening '../../db_connect.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:17 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'DB_CONNECT' not found in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 9
+[30-Dec-2024 18:21:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: filepath in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:34 Asia/Ho_Chi_Minh] PHP Warning:  require_once(../../db_connect.php): failed to open stream: No such file or directory in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:34 Asia/Ho_Chi_Minh] PHP Fatal error:  require_once(): Failed opening required '../../db_connect.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 8
+[30-Dec-2024 18:21:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 41
+[30-Dec-2024 18:21:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[30-Dec-2024 18:22:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 31
+[30-Dec-2024 18:22:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 41
+[30-Dec-2024 18:22:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 42
+[30-Dec-2024 18:22:23 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_request in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php:222
+Stack trace:
+#0 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(630): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(539): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php(26): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#3 {main}
+  thrown in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/vendor/league/oauth2-client/src/Provider/GenericProvider.php on line 222
+[30-Dec-2024 18:24:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user_id in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 44
+[30-Dec-2024 18:24:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: accessToken in /home/hydracy2/public_html/oauth_2_server/oauth-master/client/parse_token.php on line 45

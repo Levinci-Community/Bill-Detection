@@ -1,0 +1,39 @@
+.login_body{
+    background-image: url('stylesheet/violet_background.jpg');
+}
+.login_form_region{
+    margin-top: 10%;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border: 2px solid purple;
+    border-radius: 25px;
+    background-color: azure;
+}
+.login_tittle{
+    text-align: center;
+}
+.login_form{
+    text-align: center;
+}
+.submit_login{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size: x-large;
+}
+.username{
+    width: 60%;
+    height: 5%;
+    margin-bottom: 5px;
+}
+.password{
+    width: 60%;
+    height: 5%;
+    margin-bottom: 5px;
+}
+p{
+    font-size: x-large;
+}
